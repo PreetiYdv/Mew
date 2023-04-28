@@ -36,6 +36,7 @@
     --bg-main: rgba(255, 244, 234, 1);
     --bg-second: #FFFAF5;
     --text-main: #000958;
+
     --text-black: #000000;
     --text-white: #ffffff;
     --text-light-grey: #B2B3C4;
@@ -54,54 +55,156 @@
 
 /* font family */
 
-.ff_Slackey{
+.ff_Slackey {
     font-family: var(--ff-slackey);
 }
 
-.ff_PoppinsRegular{
+.ff_PoppinsRegular {
     font-family: var(--ff-PoppinsRegular);
 }
 
-.ff_PoppinsMedium{
+.ff_PoppinsMedium {
     font-family: var(--ff-PoppinsMedium);
 }
 
-.ff_PoppinsSemiBold{
+.ff_PoppinsSemiBold {
     font-family: var(--ff-PoppinsSemiBold);
 }
 
 /*  color */
-.bg_main{
+.bg_main {
     background-color: var(--bg-main);
 }
 
-.bg_second{
+.bg_second {
     background-color: var(--bg-second);
 }
 
-.fc_main{
+.fc_main {
     color: var(--text-main);
 }
-.fc_white{
+
+.fc_white {
     color: var(--text-white);
 }
-.fc_black{
+
+.fc_black {
     color: var(--text-black);
 }
-.fc_lightGrey{
+
+.fc_lightGrey {
     color: var(--text-light-grey);
 }
-.fc_light{
+
+.fc_light {
     color: var(--text-light);
 }
-.fc_voilet{
+
+.fc_voilet {
     color: var(--text-voilet);
 }
 
-.fc_lightWhite{
+.fc_lightWhite {
     color: var(--text-light-white);
 }
 
-.fc_dark{
+.fc_dark {
     color: var(--text-dark);
+}
+
+
+/* font size */
+
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_xmd {
+    font-size: var(--fs-xmd);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xlg {
+    font-size: var(--fs-xlg);
+}
+
+.fs_xxlg {
+    font-size: var(--fs-xxlg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fs_xxxl {
+    font-size: var(--fs-xxxl);
+}
+
+
+
+@media (min-width:512px) {
+
+
+    :root {
+        --fs-sm: 14px;
+        --fs-md: 16px;
+        --fs-xmd: 18px;
+        --fs-lg: 20px;
+        --fs-xlg: 20px;
+        --fs-xxlg: 27px;
+        --fs-xl: 35px;
+        --fs-xxl: 45px;
+        --fs-xxxl: 55px;
+
+    }
+
+}
+
+
+@media (min-width:768px) {
+
+
+    :root {
+        --fs-sm: 14px;
+        --fs-md: 16px;
+        --fs-xmd: 18px;
+        --fs-lg: 20px;
+        --fs-xlg: 20px;
+        --fs-xxlg: 27px;
+        --fs-xl: 35px;
+        --fs-xxl: 45px;
+        --fs-xxxl: 55px;
+    }
+
+}
+
+
+
+@media (min-width:992px) {
+
+
+    :root {
+        --fs-sm: 14px;
+        --fs-md: 16px;
+        --fs-xmd: 18px;
+        --fs-lg: 20px;
+        --fs-xlg: 20px;
+        --fs-xxlg: 27px;
+        --fs-xl: 35px;
+        --fs-xxl: 45px;
+        --fs-xxxl: 55px;
+    }
+
 }
