@@ -16,3 +16,26 @@
     font-family: 'Poppins SemiBold';
     src: url(./assets/fonts/Poppins/Poppins-SemiBold.ttf);
 }
+:root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-xmd: 18px;
+    --fs-lg: 20px;
+    --fs-xlg: 20px;
+    --fs-xxlg: 27px;
+    --fs-xl: 35px;
+    --fs-xxl:45px;
+    --fs-xxxl: 55px;
+   
+    --bg-main:rgba(255, 244, 234, 1);
+    --bg-second: #FFFAF5;
+    --text-main: #000958;
+    --text-black:#000000;
+   --text-white:#ffffff;
+   --text-light-grey:#B2B3C4;
+   --text-light:#656689;
+   --text-voilet:#48496A;
+   --text-light-white:#f3f3f3;
+   --text-dark:#292525;
+  }
+  
