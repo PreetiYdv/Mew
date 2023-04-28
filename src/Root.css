@@ -16,7 +16,7 @@
     font-family: 'Poppins SemiBold';
     src: url(./assets/fonts/Poppins/Poppins-SemiBold.ttf);
 }
-<<<<<<< HEAD
+
 :root {
     --fs-sm: 14px;
     --fs-md: 16px;
@@ -38,7 +38,97 @@
    --text-voilet:#48496A;
    --text-light-white:#f3f3f3;
    --text-dark:#292525;
+   
   }
+
+
+  /* font size */
+
   
-=======
->>>>>>> 9b71fc1127a596b242e8236fbe267feb909f111e
+  .fs_sm{
+    font-size: var(--fs-sm);
+  }
+  .fs_md{
+    font-size: var(--fs-md);
+  }
+  .fs_xmd{
+    font-size: var(--fs-xmd);
+  }
+  .fs_lg{
+    font-size: var(--fs-lg);
+  }
+  .fs_xlg{
+    font-size: var(--fs-xlg);
+  }
+  .fs_xxlg{
+    font-size: var(--fs-xxlg);
+  }
+  .fs_xl{
+    font-size: var(--fs-xl);
+  }
+  .fs_xxl{
+    font-size: var(--fs-xxl);
+  }
+  .fs_xxxl{
+    font-size: var(--fs-xxxl);
+  }
+ 
+
+
+  @media (min-width:512px) {
+
+    
+:root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-xmd: 18px;
+    --fs-lg: 20px;
+    --fs-xlg: 20px;
+    --fs-xxlg: 27px;
+    --fs-xl: 35px;
+    --fs-xxl:45px;
+    --fs-xxxl: 55px;
+     
+  }
+    
+  }
+
+
+  @media (min-width:768px) {
+
+    
+:root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-xmd: 18px;
+    --fs-lg: 20px;
+    --fs-xlg: 20px;
+    --fs-xxlg: 27px;
+    --fs-xl: 35px;
+    --fs-xxl:45px;
+    --fs-xxxl: 55px;
+      }
+
+    }
+
+
+
+  @media (min-width:992px) {
+
+    
+:root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-xmd: 18px;
+    --fs-lg: 20px;
+    --fs-xlg: 20px;
+    --fs-xxlg: 27px;
+    --fs-xl: 35px;
+    --fs-xxl:45px;
+    --fs-xxxl: 55px;
+    }
+    
+
+
+  }
+ 
