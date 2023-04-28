@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Slackey';
+    src: url(./assets/fonts/Slackey/Slackey-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url(./assets/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins SemiBold';
+    src: url(./assets/fonts/Poppins/Poppins-SemiBold.ttf);
+}
