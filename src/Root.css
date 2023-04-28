@@ -16,6 +16,7 @@
     font-family: 'Poppins SemiBold';
     src: url(./assets/fonts/Poppins/Poppins-SemiBold.ttf);
 }
+<<<<<<< HEAD
 :root {
     --fs-sm: 14px;
     --fs-md: 16px;
@@ -39,3 +40,5 @@
    --text-dark:#292525;
   }
   
+=======
+>>>>>>> 9b71fc1127a596b242e8236fbe267feb909f111e
