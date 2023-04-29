@@ -1,8 +1,8 @@
 import React from 'react'
 import "../Root.css"
 import "../App.css"
-import CatImg from "../assets/image/png/cat_image.png"
-import Dog from "../assets/image/png/dog_image.png"
+// import CatImg from "../assets/image/png/cat_image.png"
+// import Dog from "../assets/image/png/dog_image.png"
 
 
 
@@ -15,9 +15,9 @@ function Header() {
                 <div className="col-md-6">
                     <div className='position-absolute  top-0 start-0'>
                       <div className='position-relative'>
-                        <img src={CatImg}  className='w-100 rounded-end' alt="immm" />
+                        <img src=""  className='w-100 rounded-end' alt="immm" />
                         <div className='position-absolute end-0 rounded-5 border-2 overflow-hidden'>
-                          <img src={Dog} alt="dog" />
+                          <img src="" alt="dog" />
                         </div>
                       </div>
                     </div>

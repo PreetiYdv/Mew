@@ -219,7 +219,7 @@ input.larger {
   .showNav {
     left: 0;
   }
-<<<<<<< HEAD
+
 }
 
 
@@ -241,10 +241,10 @@ input.larger {
 }
 .max_w_482{
   max-width: 482px !important;
-=======
-  .learn_btn{
-    padding: 12px 21px;
-  }
+
+}
+.learn_btn{
+  padding: 12px 21px;
 }
 
 @media (max-width:576px) {
@@ -266,5 +266,5 @@ input.larger {
     line-height: 160.2%;
     text-align: justify;
   }
->>>>>>> 5ee2609742f1312586d76cf4bda7f10d363e9273
+
 }
