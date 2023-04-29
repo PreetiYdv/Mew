@@ -6,8 +6,13 @@ function Footer() {
       <div className="container myContainer py-5">
         <div className="row justify-content-between mt-5">
           <div className="col-lg-5">
-            <a href="#" className=" ff_Slackey fc_black fs_xxlg text-decoration-none">Mew</a>
-            <p className=" ff_PoppinsRegular fs_md fc_light">
+            <a
+              href="#"
+              className=" ff_Slackey fc_black fs_xxlg text-decoration-none"
+            >
+              Mew
+            </a>
+            <p className=" ff_PoppinsRegular fs_md fc_light py-4 my-1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim velit esse cillum dolore eu fugiat nulla pariatur.
@@ -77,34 +82,126 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 pb-5 mb-3  mt-lg-0 mt-5">
             <div className="row justify-content-between">
-              <div className="col-md-3">
-                <h3 className=" ff_Slackey fc_main fs_xmd pb-5 mb-0">Useful links</h3>
-                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">FAQs </a></p>
-                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Shop</a></p>
-                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Privacy Policy</a></p>
-                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Terms of Use</a></p>
-                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Site Map</a></p>
+              <div className="col-6 col-md-3">
+                <h3 className=" ff_Slackey fc_main fs_xmd pb-lg-5 pb-4 mb-0">
+                  Useful links
+                </h3>
+                <p>
+                  <a
+                    href=""
+                    className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none"
+                  >
+                    FAQs{" "}
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href=""
+                    className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none"
+                  >
+                    Shop
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href=""
+                    className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none"
+                  >
+                    Privacy Policy
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href=""
+                    className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none"
+                  >
+                    Terms of Use
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href=""
+                    className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none"
+                  >
+                    Site Map
+                  </a>
+                </p>
               </div>
-              <div className="col-md-3">
-                <h3 className=" ff_Slackey fc_main fs_xmd pb-5 mb-0">Explore</h3>
-                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">About Us</a></p>
-                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Services</a></p>
-                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Our Team</a></p>
-                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Adopt Pet</a></p>
+              <div className="col-6 col-md-3">
+                <h3 className=" ff_Slackey fc_main fs_xmd pb-lg-5 pb-4 mb-0">
+                  Explore
+                </h3>
+                <p>
+                  <a
+                    href=""
+                    className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none"
+                  >
+                    About Us
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href=""
+                    className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none"
+                  >
+                    Services
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href=""
+                    className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none"
+                  >
+                    Our Team
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href=""
+                    className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none"
+                  >
+                    Adopt Pet
+                  </a>
+                </p>
               </div>
-              <div className="col-md-6">
-                <h3 className=" ff_Slackey fc_main fs_xmd pb-5 mb-0">Contact Info</h3>
-                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">361-777-5681</a></p>
-                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">654 White Avenue</a></p>
-                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Portland, TX 78374</a></p>
-              </div>  
+              <div className="col-6 col-md-3">
+                <h3 className=" ff_Slackey fc_main fs_xmd pb-lg-5 pb-4 mb-0">
+                  Contact Info
+                </h3>
+                <p>
+                  <a
+                    href=""
+                    className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none"
+                  >
+                    361-777-5681
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href=""
+                    className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none"
+                  >
+                    654 White Avenue
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href=""
+                    className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none"
+                  >
+                    Portland, TX 78374
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <div className="border_top">
-          <p className=" text-center ff_PoppinsRegular fs_md color">Copyright 2022 | Uitaskca</p>
+          <p className=" text-center ff_PoppinsRegular fs_md color">
+            Copyright 2022 | Uitaskca
+          </p>
         </div>
       </div>
     </>

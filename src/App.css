@@ -77,6 +77,38 @@ input.larger {
 
 }
 
+.zig-zag_position{
+  position: absolute;
+  top: 14%;
+  left: 2%;
+  z-index: 0;
+}
+.circle_position{
+  position: absolute;
+  top: 10%;
+  right: 2%;
+  z-index: 0;
+  animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+   transform: rotate(0deg);
+  }
+25%{
+  transform: rotateY(75degdeg);
+}
+  50% {
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
 .translate_text {
   transform: translateY(-72%);
 }
@@ -135,6 +167,9 @@ input.larger {
   background: #FFFFFF;
   border: 1px solid #FFFFFF;
   box-shadow: 0px 16px 28px -10px rgba(211, 132, 53, 0.33);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,9 +180,12 @@ input.larger {
   width: 100%;
   padding-top: 28px;
 }
-.color{
+
+.color {
   color: #89847F;
 }
+
+
 /* custom container media query */
 @media (min-width:1200px) and (max-width:1440px) {
   .myContainer {
@@ -180,6 +218,9 @@ input.larger {
 
   .showNav {
     left: 0;
+  }
+  .learn_btn{
+    padding: 12px 21px;
   }
 }
 
