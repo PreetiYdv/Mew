@@ -23,3 +23,24 @@
     left: 0;
   }
 }
+
+
+
+
+
+
+/* header css-------------------------------------- */
+
+.w_142{
+  width: 142px !important;
+}
+.h_60{
+  height: 60px !important;
+}
+.bg_orange{
+  background: #FF5B2E;
+
+}
+.max_w_482{
+  max-width: 482px !important;
+}
