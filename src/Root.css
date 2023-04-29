@@ -21,26 +21,26 @@
 :root {
 
     /* font size */
-    --fs-sm: 14px;
-    --fs-md: 16px;
-    --fs-xmd: 18px;
-    --fs-lg: 20px;
-    --fs-xlg: 20px;
-    --fs-xxlg: 27px;
-    --fs-xl: 35px;
-    --fs-xxl: 45px;
-    --fs-xxxl: 55px;
+    --fs-sm: 10px;
+    --fs-md: 10px;
+    --fs-xmd: 11px;
+    --fs-lg: 14px;
+    --fs-xlg: 16px;
+    --fs-xxlg: 22px;
+    --fs-xl: 25px;
+    --fs-xxl: 30px;
+    --fs-xxxl: 35px;
 
 
     /* color */
     --bg-main: rgba(255, 244, 234, 1);
     --bg-second: #FFFAF5;
     --text-main: #000958;
-
     --text-black: #000000;
     --text-white: #ffffff;
     --text-light-grey: #B2B3C4;
     --text-light: #656689;
+    --text-coolGrey: #5E6085;
     --text-voilet: #48496A;
     --text-light-white: #f3f3f3;
     --text-dark: #292525;
@@ -94,6 +94,10 @@
 
 .fc_lightGrey {
     color: var(--text-light-grey);
+}
+
+.fc_coolGrey {
+    color: var(--text-coolGrey);
 }
 
 .fc_light {
@@ -155,52 +159,49 @@
 
 
 @media (min-width:512px) {
-
-
     :root {
-        --fs-sm: 14px;
-        --fs-md: 16px;
-        --fs-xmd: 18px;
-        --fs-lg: 20px;
-        --fs-xlg: 20px;
-        --fs-xxlg: 27px;
-        --fs-xl: 35px;
-        --fs-xxl: 45px;
-        --fs-xxxl: 55px;
-
+        --fs-xlg: 18px;
+        --fs-xxlg: 22px;
+        --fs-xl: 28px;
+        --fs-xxl: 40px;
+        --fs-xxxl: 45px;
     }
-
 }
 
 
 @media (min-width:768px) {
-
-
     :root {
-        --fs-sm: 14px;
-        --fs-md: 16px;
-        --fs-xmd: 18px;
-        --fs-lg: 20px;
         --fs-xlg: 20px;
-        --fs-xxlg: 27px;
-        --fs-xl: 35px;
-        --fs-xxl: 45px;
-        --fs-xxxl: 55px;
+        --fs-xxlg: 25px;
+        --fs-xl: 30px;
+        --fs-xxl: 42px;
+        --fs-xxxl: 48px;
     }
 
 }
 
-
-
 @media (min-width:992px) {
+    :root {
+        --fs-sm: 14px;
+        --fs-md: 15px;
+        --fs-xmd: 16px;
+        --fs-lg: 18px;
+        --fs-xlg: 20px;
+        --fs-xxlg: 25px;
+        --fs-xl: 30px;
+        --fs-xxl: 40px;
+        --fs-xxxl: 50px;
+    }
 
+}
 
+@media (min-width:1200px) {
     :root {
         --fs-sm: 14px;
         --fs-md: 16px;
         --fs-xmd: 18px;
         --fs-lg: 20px;
-        --fs-xlg: 20px;
+        --fs-xlg: 22px;
         --fs-xxlg: 27px;
         --fs-xl: 35px;
         --fs-xxl: 45px;

@@ -1,22 +1,24 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { TiThMenuOutline } from "react-icons/ti";
 import { GrClose } from "react-icons/gr";
 
 function MewNav() {
-     const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(false);
 
-     const shownavBar = () => {
-       setToggle(!toggle);
-       document.body.classList.toggle("overflow-hidden");
-     };
+  const shownavBar = () => {
+    setToggle(!toggle);
+    document.body.classList.toggle("overflow-hidden");
+  };
   return (
     <>
       <nav>
-        <div className="container d-flex justify-content-between align-items-center pt-4">
-          <a href="#">
-            <h2 className="ff_Slackey fc_black fs_xxlg">Mew</h2>
+        <div className="container myContainer d-flex justify-content-between align-items-center pt-3">
+          <a
+            href="#"
+            className="text-decoration-none ff_Slackey fc_black fs_xxlg"
+          >
+            Mew
           </a>
-
           <ul
             className={
               toggle
@@ -28,7 +30,7 @@ function MewNav() {
               <a
                 onClick={shownavBar}
                 href="#LetsFly"
-                className="ff_SunflowerBold fs_sm fc_white text-decoration-none"
+                className="ff_PoppinsRegular fs_md fc_coolGrey text-decoration-none"
               >
                 Home
               </a>
@@ -37,7 +39,7 @@ function MewNav() {
               <a
                 onClick={shownavBar}
                 href=""
-                className="ff_SunflowerBold fs_sm fc_white text-decoration-none"
+                className="ff_PoppinsRegular fs_md fc_coolGrey text-decoration-none"
               >
                 About
               </a>
@@ -46,7 +48,7 @@ function MewNav() {
               <a
                 onClick={shownavBar}
                 href=""
-                className="ff_SunflowerBold fs_sm fc_white text-decoration-none"
+                className="ff_PoppinsRegular fs_md fc_coolGrey text-decoration-none"
               >
                 Services
               </a>
@@ -55,7 +57,7 @@ function MewNav() {
               <a
                 onClick={shownavBar}
                 href=""
-                className="ff_SunflowerBold fs_sm fc_white text-decoration-none"
+                className="ff_PoppinsRegular fs_md fc_coolGrey text-decoration-none"
               >
                 Facilities
               </a>
@@ -64,8 +66,8 @@ function MewNav() {
               <button
                 className={
                   toggle
-                    ? "d-block connect_btn ff_SunflowerBold fs_sm fc_black"
-                    : "d-lg-none connect_btn ff_SunflowerBold fs_sm fc_black"
+                    ? "d-block sign_btn ff_PoppinsRegular fs_md fc_main"
+                    : "d-lg-none sign_btn ff_PoppinsRegular fs_md fc_main"
                 }
               >
                 Sign up
@@ -75,8 +77,8 @@ function MewNav() {
           <button
             className={
               toggle
-                ? "d-none connect_btn ff_SunflowerBold fs_sm fc_black"
-                : "d-lg-block d-none connect_btn ff_SunflowerBold fs_sm fc_black"
+                ? "d-none sign_btn ff_PoppinsRegular fs_md fc_main"
+                : "d-lg-block d-none sign_btn ff_PoppinsRegular fs_md fc_main"
             }
           >
             Sign up
@@ -84,9 +86,9 @@ function MewNav() {
 
           <span onClick={shownavBar} className="nav_btn d-lg-none z-index-50">
             {toggle ? (
-              <GrClose className="stroke_white" />
+              <GrClose />
             ) : (
-              <TiThMenuOutline className="fc_white" />
+              <TiThMenuOutline />
             )}
           </span>
         </div>
@@ -95,4 +97,4 @@ function MewNav() {
   );
 }
 
-export default MewNav
+export default MewNav;
