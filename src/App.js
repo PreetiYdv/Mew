@@ -16,16 +16,17 @@ function App() {
         <MewNav />
       </div>
       <div className="bg_main">
-        <Connect/>
-      </div>
-      <div className=" bg_second">
-        <Groomers/>
+        <Connect />
       </div>
       <div className="bg_main">
-         <Blog />
+        <Groomers />
       </div>
-     
-      {/* <Footer/> */}
+      <div className=" bg_second">
+        <Blog />
+      </div>
+      <div className="bg_main ">
+        <Footer />
+      </div>
     </>
   );
 }

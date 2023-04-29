@@ -3,10 +3,10 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <div className="container myContainer">
-        <div className="row">
+      <div className="container myContainer py-5">
+        <div className="row justify-content-between mt-5">
           <div className="col-lg-5">
-            <a href="#" className=" ff_Slackey fc_black fs_xxlg">Mew</a>
+            <a href="#" className=" ff_Slackey fc_black fs_xxlg text-decoration-none">Mew</a>
             <p className=" ff_PoppinsRegular fs_md fc_light">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -78,33 +78,33 @@ function Footer() {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="row">
+            <div className="row justify-content-between">
               <div className="col-md-3">
-                <h3>Useful links</h3>
-                <a href="">FAQs </a>
-                <a href="">Shop</a>
-                <a href="">Privacy Policy</a>
-                <a href="">Terms of Use</a>
-                <a href="">Site Map</a>
+                <h3 className=" ff_Slackey fc_main fs_xmd pb-5 mb-0">Useful links</h3>
+                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">FAQs </a></p>
+                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Shop</a></p>
+                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Privacy Policy</a></p>
+                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Terms of Use</a></p>
+                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Site Map</a></p>
               </div>
               <div className="col-md-3">
-                <h3>Explore</h3>
-                <a href="">About Us</a>
-                <a href="">Services</a>
-                <a href="">Our Team</a>
-                <a href="">Adopt Pet</a>
+                <h3 className=" ff_Slackey fc_main fs_xmd pb-5 mb-0">Explore</h3>
+                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">About Us</a></p>
+                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Services</a></p>
+                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Our Team</a></p>
+                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Adopt Pet</a></p>
               </div>
               <div className="col-md-6">
-                <h3>Contact Info</h3>
-                <a href="">361-777-5681</a>
-                <a href="">654 White Avenue</a>
-                <a href="">Portland, TX 78374</a>
+                <h3 className=" ff_Slackey fc_main fs_xmd pb-5 mb-0">Contact Info</h3>
+                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">361-777-5681</a></p>
+                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">654 White Avenue</a></p>
+                <p><a href="" className=" ff_PoppinsRegular fs_sm fc_light text-decoration-none">Portland, TX 78374</a></p>
               </div>  
             </div>
           </div>
         </div>
         <div className="border_top">
-          <p>Copyright 2022 | Uitaskca</p>
+          <p className=" text-center ff_PoppinsRegular fs_md color">Copyright 2022 | Uitaskca</p>
         </div>
       </div>
     </>
