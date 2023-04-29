@@ -15,7 +15,7 @@ function Facilities() {
         </div>
         <div className="row">
           <div className="col-lg-4 p-0 pt-5">
-            <div className="border_bottom pb-5">
+            <div className="border_bottom pb-5 mb-5">
               <h3 className=" ff_Slackey fc_main fs_xlg">Feed Training</h3>
               <p className=" ff_PoppinsRegular fc_light fs_md mw_244">
                 Ut enim ad minim velit esse cillum dolore eu fugiat..
@@ -40,7 +40,7 @@ function Facilities() {
             </div>
           </div>
           <div className="col-lg-4 p-0 pt-5">
-            <div className="border_bottom pb-5">
+            <div className="border_bottom circle pb-5 mb-5">
               <div className=" mw_244 ms-auto">
                 <h3 className=" ff_Slackey fc_main fs_xlg">Overnight Care</h3>
                 <p className=" ff_PoppinsRegular fc_light fs_md">
@@ -48,7 +48,7 @@ function Facilities() {
                 </p>
               </div>
             </div>
-            <div className="border_bottom py-5">
+            <div className="border_bottom circle py-5">
               <div className=" mw_244 ms-auto">
                 <h3 className=" ff_Slackey fc_main fs_xlg">Medical Care</h3>
                 <p className=" ff_PoppinsRegular fc_light fs_md">
@@ -58,9 +58,7 @@ function Facilities() {
             </div>
             <div className="py-5">
               <div className=" mw_244 ms-auto">
-                <h3 className=" ff_Slackey fc_main fs_xlg">
-                  Traning Facility
-                </h3>
+                <h3 className=" ff_Slackey fc_main fs_xlg">Traning Facility</h3>
                 <p className=" ff_PoppinsRegular fc_light fs_md">
                   tempor incididunt ut labore et dolore magna aliqua...
                 </p>

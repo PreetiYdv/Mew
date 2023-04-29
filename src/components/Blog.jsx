@@ -35,7 +35,7 @@ function Blog() {
               </button>
             </div>
           </div>
-          <div className="col-xl-7 pt-5 pt-xl-0">
+          <div className="col-xl-7 py-5 pt-xl-0 mt-5">
             <div className="slider_box">
               <Slider ref={myBtn} {...settings}>
                 <div className="slider_content">
