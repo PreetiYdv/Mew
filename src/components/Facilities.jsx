@@ -5,8 +5,8 @@ function Facilities() {
   return (
     <>
       <div className="container myContainer py-5">
-        <div className="d-flex justify-content-between align-items-center py-5">
-          <h2 className=" ff_Slackey fc_main fs_xxl">Facilities we provides</h2>
+        <div className="d-flex justify-content-center align-items-center py-5">
+          <h2 className=" ff_Slackey fc_main fs_xxl mw_363 me-4">Facilities we provides</h2>
           <p className=" ff_PoppinsRegular fc_light fs_md mw_577">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -40,7 +40,7 @@ function Facilities() {
             </div>
           </div>
           <div className="col-lg-4 p-0 pt-5">
-            <div className="border_bottom circle pb-5 mb-5">
+            <div className=" circle pb-5 mb-5">
               <div className=" mw_244 ms-auto">
                 <h3 className=" ff_Slackey fc_main fs_xlg">Overnight Care</h3>
                 <p className=" ff_PoppinsRegular fc_light fs_md">
@@ -48,7 +48,7 @@ function Facilities() {
                 </p>
               </div>
             </div>
-            <div className="border_bottom circle py-5">
+            <div className=" circle py-5">
               <div className=" mw_244 ms-auto">
                 <h3 className=" ff_Slackey fc_main fs_xlg">Medical Care</h3>
                 <p className=" ff_PoppinsRegular fc_light fs_md">
