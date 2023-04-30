@@ -30,7 +30,7 @@ function Header() {
                 </div>
                 <div className="col-lg-6">
                   <div className='postision-relative' >
-                    <h1 className='fs_xxxl ff_Slackey pt-lg-3 pt-4 fc_main'>
+                    <h1 className='fs_xxxl max-w-641 ff_Slackey pt-lg-3 pt-4 fc_main'>
                     We take care of your pet and help them to grow <span>
                       <img src={Smile} alt="" />
                     </span>

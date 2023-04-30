@@ -31,9 +31,9 @@ function App() {
       <div className="bg_main">
         <Service />
       </div>
-      {/* <div className=" bg_second">
+      <div className=" bg_second">
         <Facilities/>
-      </div> */}
+      </div>
      
       <div className="bg_main">
         <Groomers />
