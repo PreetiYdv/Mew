@@ -1,18 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Header from "./components/Header";
 import "./Root.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import MewNav from "./components/MewNav";
+import Header from "./components/Header";
 import Connect from "./components/Connect";
 import Groomers from "./components/Groomers";
 import Blog from "./components/Blog";
-import Footer from "./components/Footer";
-
 import Service from "./components/Service";
-
 import Facilities from "./components/Facilities";
+import Footer from "./components/Footer";
 
 
 function App() {
