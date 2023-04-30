@@ -21,6 +21,8 @@ function Groomers() {
         breakpoint: 1400,
         settings: {
           slidesToShow: 4,
+          centerMode: true,
+          centerPadding: "60px",
           slidesToScroll: 1,
         },
       },
@@ -28,6 +30,8 @@ function Groomers() {
         breakpoint: 1200,
         settings: {
           slidesToShow: 3,
+          centerMode: true,
+          centerPadding: "60px",
           slidesToScroll: 1,
         },
       },
@@ -35,14 +39,18 @@ function Groomers() {
         breakpoint: 992,
         settings: {
           slidesToShow: 2,
+          centerMode: true,
+          centerPadding: "60px",
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1.5,
+          slidesToShow: 1.7,
           slidesToScroll: 1,
+          centerMode: true,
+          centerPadding: "60px",
         },
       },
       {
@@ -63,7 +71,7 @@ function Groomers() {
           Our Groomers
         </h1>
 
-        <Slider {...settings}>
+        <Slider {...settings} className="groomer">
           <div className="px-2 py-5 d-flex justify-content-center">
             <div className="groomer_card pt-5">
               <img
@@ -75,7 +83,7 @@ function Groomers() {
                 <h2 className=" ff_PoppinsSemiBold fc_main fs_lg text-center mb-3">
                   Adam Smith
                 </h2>
-                <p className=" ff_PoppinsRegular fs_md fc_light text-center pb-5">
+                <p className=" ff_PoppinsRegular fs_md fc_light text-center pb-4">
                   Veterinarian
                 </p>
               </div>
@@ -92,7 +100,7 @@ function Groomers() {
                 <h2 className=" ff_PoppinsSemiBold fc_main fs_lg text-center mb-3">
                   Adam Smith
                 </h2>
-                <p className=" ff_PoppinsRegular fs_md fc_light text-center pb-5">
+                <p className=" ff_PoppinsRegular fs_md fc_light text-center pb-4">
                   Veterinarian
                 </p>
               </div>
@@ -109,7 +117,7 @@ function Groomers() {
                 <h2 className=" ff_PoppinsSemiBold fc_main fs_lg text-center mb-3">
                   Adam Smith
                 </h2>
-                <p className=" ff_PoppinsRegular fs_md fc_light text-center pb-5">
+                <p className=" ff_PoppinsRegular fs_md fc_light text-center pb-4">
                   Veterinarian
                 </p>
               </div>
@@ -126,15 +134,15 @@ function Groomers() {
                 <h2 className=" ff_PoppinsSemiBold fc_main fs_lg text-center mb-3">
                   Adam Smith
                 </h2>
-                <p className=" ff_PoppinsRegular fs_md fc_light text-center pb-5">
+                <p className=" ff_PoppinsRegular fs_md fc_light text-center pb-4">
                   Veterinarian
                 </p>
               </div>
             </div>
           </div>
         </Slider>
-        <div className="d-flex justify-content-center">
-          <button className="view_btn fc_white ff_PoppinsSemiBold fs_md">
+        <div className="d-flex justify-content-center pb-5">
+          <button className="view_btn book_btn w-179  fc_white ff_PoppinsSemiBold fs_md">
             View Team
           </button>
         </div>

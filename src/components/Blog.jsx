@@ -20,22 +20,22 @@ function Blog() {
       <div className="container myContainer py-5">
         <div className="row justify-content-between align-items-center">
           <div className="col-xl-5">
-            <h2 className=" ff_Slackey fs_xxl fc_dark text-center text-lg-start">
+            <h2 className=" ff_Slackey fs_xxl fc_dark text-center text-lg-start pb-4">
               {" "}
               DaCode Blog
             </h2>
-            <p className=" ff_PoppinsRegular fs_md fc_light lh_30 text-center text-lg-start">
+            <p className=" ff_PoppinsRegular fs_md fc_light lh_30 text-center text-lg-start pe-lg-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
-            <div className=" d-flex justify-content-center justify-content-lg-start">
+            <div className=" d-flex justify-content-center justify-content-lg-start pt-5">
               <button className="learn_btn fc_white ff_PoppinsSemiBold fs_md">
                 Learn More
               </button>
             </div>
           </div>
-          <div className="col-xl-7 pt-5 pt-xl-0">
+          <div className="col-xl-7 py-5 pt-xl-0 mt-5">
             <div className="slider_box">
               <Slider ref={myBtn} {...settings}>
                 <div className="slider_content">

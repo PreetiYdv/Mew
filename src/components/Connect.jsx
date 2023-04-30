@@ -13,16 +13,16 @@ function Connect() {
             </h2>
             <div className="d-flex align-items-center gap-4 mb-4 pb-3">
               <div className="d-flex align-items-center gap-3">
-                <input type="checkbox" className="larger" />
-                <p className="ff_PoppinsMedium fs_xmd fc_voilet mb-0">
+                <input type="checkbox" id='check1' className="larger curser_pointer" />
+                <label htmlFor='check1' className="ff_PoppinsMedium curser_pointer fs_xmd fc_voilet mb-0">
                   Vaccination Service{" "}
-                </p>
+                </label>
               </div>
               <div className="d-flex align-items-center gap-3">
-                <input type="checkbox" className="larger" />
-                <p className="ff_PoppinsMedium fs_xmd fc_voilet mb-0">
+                <input id='check2' type="checkbox" className="larger curser_pointer" />
+                <label htmlFor="check2" className="ff_PoppinsMedium curser_pointer fs_xmd fc_voilet mb-0">
                   Veterinary Service{" "}
-                </p>
+                </label>
               </div>
             </div>
             <p className="ff_PoppinsRegular fs_md fc_light mb-4 pb-3">
@@ -31,7 +31,7 @@ function Connect() {
               enim ad minim velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
             <div className="d-flex gap-4 align-items-center">
-              <button className="book_btn w-179 fc_white fs_md">Book a Schedule</button>
+              <button className="book_btn view_btn w-179 fc_white fs_md">Book a Schedule</button>
               <div className="d-flex align-items-center">
                 <img src={phone} alt="phone" />
                 <a href="#" className="ff_PoppinsMedium fs_xmd fc_voilet">

@@ -84,7 +84,7 @@ function Footer() {
           </div>
           <div className="col-lg-6 pb-5 mb-3  mt-lg-0 mt-5">
             <div className="row justify-content-between">
-              <div className="col-6 col-md-3">
+              <div className="col-6 col-md-4">
                 <h3 className=" ff_Slackey fc_main fs_xmd pb-lg-5 pb-4 mb-0">
                   Useful links
                 </h3>
@@ -129,7 +129,7 @@ function Footer() {
                   </a>
                 </p>
               </div>
-              <div className="col-6 col-md-3">
+              <div className="col-6 col-md-4">
                 <h3 className=" ff_Slackey fc_main fs_xmd pb-lg-5 pb-4 mb-0">
                   Explore
                 </h3>
@@ -166,7 +166,7 @@ function Footer() {
                   </a>
                 </p>
               </div>
-              <div className="col-6 col-md-3">
+              <div className="col-6 col-md-4">
                 <h3 className=" ff_Slackey fc_main fs_xmd pb-lg-5 pb-4 mb-0">
                   Contact Info
                 </h3>
