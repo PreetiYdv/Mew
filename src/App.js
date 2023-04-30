@@ -9,21 +9,32 @@ import Connect from "./components/Connect";
 import Groomers from "./components/Groomers";
 import Blog from "./components/Blog";
 import Footer from "./components/Footer";
+
+import Service from "./components/Service";
+
 import Facilities from "./components/Facilities";
+
 
 function App() {
   return (
     <>
-      <div className="bg_main">
+      <div className=" bg_second">
         <MewNav />
-        <Header />
-      </div>
-      <div className="bg_main">
-        <Connect />
+      
       </div>
       <div className=" bg_second">
-        <Facilities/>
+        <Header />
       </div>
+      <div className=" bg_second">
+        <Connect />
+      </div>
+      <div className="bg_main">
+        <Service />
+      </div>
+      {/* <div className=" bg_second">
+        <Facilities/>
+      </div> */}
+     
       <div className="bg_main">
         <Groomers />
       </div>

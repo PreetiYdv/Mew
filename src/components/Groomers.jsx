@@ -142,7 +142,7 @@ function Groomers() {
           </div>
         </Slider>
         <div className="d-flex justify-content-center pb-5">
-          <button className="view_btn fc_white ff_PoppinsSemiBold fs_md">
+          <button className="view_btn book_btn w-179  fc_white ff_PoppinsSemiBold fs_md">
             View Team
           </button>
         </div>
