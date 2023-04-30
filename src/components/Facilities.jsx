@@ -41,10 +41,12 @@ function Facilities() {
             </div>
             
           </div>
-          <div className="col-lg-4 p-5 align-items-center  rounded-pill justify-content-center border_circle d-flex ">
-              <div className="overflow-hidden w-100  rounded-pill">
+          <div className="col-lg-4 p-lg-0">
+             <div className=" p-5  align-items-center  rounded-pill justify-content-center border_circle d-flex">
+             <div className="overflow-hidden w-100  rounded-pill">
                 <img className="w-100" src={dog} alt="dog" />
               </div>
+             </div>
           </div>
           <div className="col-lg-4 ps-lg-0">
 

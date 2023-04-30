@@ -605,11 +605,14 @@ input.larger {
     right: -1px;
 }
 .border_bottom::before{
-  right: 0px;
+  right: 0px !important;
 
 }
 .circle::before{
-  left: 0;
+  left: 0 !important;
+}
+.m-12{
+  margin: 0 12px !important;
 }
   .border_0{
     border: 0px !important;
