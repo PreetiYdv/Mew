@@ -126,9 +126,15 @@ input.larger {
   max-width: 577px;
 }
 
+.border_circle{
+  border: 5px solid #FFEFDE;
+}
+
+
 .mw_363 {
   max-width: 363px;
 }
+
 
 .img_border {
   border: 5px solid #FFEFDE;
@@ -143,12 +149,12 @@ input.larger {
   content: "";
   position: absolute;
   background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%);
-  width: 26px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   border: 6px solid #FFEFDE;
-  bottom: -10px;
-  right: -16px;
+  bottom: -15px;
+  right: -20px;
   z-index: 5;
 }
 
@@ -160,10 +166,18 @@ input.larger {
   content: "";
   position: absolute;
   background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%);
-  width: 26px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   border: 6px solid #FFEFDE;
+
+  bottom: -15px;
+  left: -20px !important;
+  z-index: 5;
+}
+.max-w-222{
+  max-width: 222px !important;
+
   bottom: -10px;
   left: 54px;
   z-index: 5;
@@ -174,14 +188,16 @@ input.larger {
     bottom: 0;
     width: 100%;
     height: 5px;
-    left: 71px;
+    /* left: 71px; */
     background: #FFEFDE;
+
 }
 
 .border_bottom::after {
   content: "";
   position: absolute;
   bottom: 0;
+  right: 0;
   width: 100%;
   height: 5px;
   background: #FFEFDE;
@@ -189,6 +205,9 @@ input.larger {
 
 .mw_244 {
   max-width: 244px;
+}
+.fc_main{
+  max-width: 390px;
 }
 
 /* groomer card */
@@ -532,6 +551,7 @@ input.larger {
     top: -10px;
   
   }
+
   .w_142{
     width: 142px !important;
   }
@@ -568,6 +588,12 @@ input.larger {
     transition: all 300ms linear;
     z-index: 50;
   }
+  .flex_md_col{
+    flex-direction: column;
+  }
+  .align_start{
+    align-items: start !important;
+  }
   .header_card_text{
     background: linear-gradient(97.17deg, #FF5D31 2.51%, #FF9F2E 70.22%, #FF5B2E 70.23%);
     border-radius: 34px 34px 10px 10px;
@@ -579,6 +605,13 @@ input.larger {
     padding: 33px;
     position: relative;
     right: -1px;
+}
+.border_bottom::before{
+  right: 0px;
+
+}
+.circle::before{
+  left: 0;
 }
   .border_0{
     border: 0px !important;
