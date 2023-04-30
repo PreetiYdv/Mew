@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <div className="container myContainer py-5">
+      <footer className="container myContainer py-5">
         <div className="row justify-content-between mt-5">
           <div className="col-lg-5">
             <a
@@ -203,7 +203,7 @@ function Footer() {
             Copyright 2022 | Uitaskca
           </p>
         </div>
-      </div>
+      </footer>
     </>
   );
 }
