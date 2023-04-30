@@ -31,7 +31,7 @@ function Connect() {
               enim ad minim velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
             <div className="d-flex gap-4 align-items-center">
-              <button className="book_btn fc_white fs_md">Book a Schedule</button>
+              <button className="book_btn w-179 fc_white fs_md">Book a Schedule</button>
               <div className="d-flex align-items-center">
                 <img src={phone} alt="phone" />
                 <a href="#" className="ff_PoppinsMedium fs_xmd fc_voilet">

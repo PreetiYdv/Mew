@@ -13,6 +13,7 @@ import Connect from "./components/Connect";
 import Groomers from "./components/Groomers";
 import Blog from "./components/Blog";
 import Footer from "./components/Footer";
+import Service from "./components/Service";
 
 function App() {
 
@@ -23,7 +24,13 @@ function App() {
         <MewNav />
       </div>
       <div className="bg_main">
+        <Header />
+      </div>
+      <div className="bg_main">
         <Connect />
+      </div>
+      <div className="bg_main">
+        <Service />
       </div>
       <div className="bg_main">
         <Groomers />
