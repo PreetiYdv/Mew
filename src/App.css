@@ -402,7 +402,9 @@ input.larger {
 .color {
   color: #89847F;
 }
-
+ footer p a:hover{
+  color:#000958;
+ }
 
 /* custom container media query */
 @media (min-width:1200px) and (max-width:1440px) {
