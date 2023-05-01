@@ -55,12 +55,9 @@ function Header() {
                     How to take care
                     </h2>
                     <p className='ff_PoppinsRegular ps-lg-5 fc_light'>perfect one you will like it. It’s our promise.</p>
-
                       </div>
                     <div className='position-absolute circle_head'>
-
                     <img src={Circle}  alt="circle_image" />
-
                     </div>
                   </div>
                 </div>
