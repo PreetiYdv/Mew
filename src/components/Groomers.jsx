@@ -67,7 +67,7 @@ function Groomers() {
       <div className="container myContainer py-5 position-relative">
         <img src={zig_zag} alt="zig_zag" className="zig-zag_position" />
         <img src={circle} alt="circle" className="circle_position" />
-        <h1 className="fc_main ff_Slackey fs_xxl text-center py-5 position-relative z-4">
+        <h1 className="fc_main ff_Slackey fs_xxl text-center  py-5 position-relative z-4">
           Our Groomers
         </h1>
 

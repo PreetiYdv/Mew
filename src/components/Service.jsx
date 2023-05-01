@@ -4,6 +4,7 @@ import LittleCat from "../assets/images/png/little_cat.png"
 import Dr from "../assets/images/png/dr.png"
 import Hand from "../assets/images/png/hand.png"
 import DogFoot from "../assets/images/png/dog_foot.png"
+import Traingle from "../assets/images/png/traingle.png"
 
 
 const Service = () => {
@@ -14,7 +15,7 @@ const Service = () => {
               <span className='dog_foot'>
                   <img src={DogFoot} alt="" />
               </span>
-              <a href="#" className=' text-decoration-none fs_xxl fc_main'>Our Services</a>
+              <p className='  fs_xxl fc_main'>Our Services</p>
             </h2>
             <p className='text-center ms-auto me-auto ff_PoppinsRegular fs_md fc_light max-w-482'>
             Best pets are waiting for adoption. Find out the the perfect one you will like it. It’s our promise.
@@ -85,8 +86,11 @@ const Service = () => {
           </div>
         </div>
 
-        <div className="container pb-md-5 pb-5 myContainer d-flex justify-content-center pt-md-3 pt-4 pt-lg-5">
+        <div className="container position-relative pb-md-5 pb-5 myContainer d-flex justify-content-center pt-md-3 pt-4 pt-lg-5">
             <button className='book_btn view_btn w-179 ff_PoppinsSemiBold fc_white fs_md  '>Learn More</button>
+            <div className='position-absolute trangle '>
+              <img src={Traingle} alt=" trangle" />
+            </div>
         </div>
 
     </>

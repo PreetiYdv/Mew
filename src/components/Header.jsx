@@ -32,7 +32,7 @@ function Header() {
                   <div className='postision-relative' >
                     <h1 className='fs_xxxl max-w-641 ff_Slackey pt-lg-3 pt-4 fc_main'>
                     We take care of your pet and help them to grow <span>
-                      <img src={Smile} alt="" />
+                      <img className='smile_emogi' src={Smile} alt="" />
                     </span>
                     </h1>
                     <p className='ff_PoppinsMedium pt-lg-5 max_w_482 pb-lg-5 pt-3  fc_light fs_mds '>Best pets are waiting for adoption. Find out the the perfect one you will like it. It’s our promise.</p>
@@ -68,7 +68,7 @@ function Header() {
             </div>
           </section>
           <section>
-            <div className="container pb-md-5 pt-md-5">
+            <div className="container mycontainer pb-md-5 pt-md-5">
                  <div className="row position-relative ps-3 pe-3">
                      <div className='col-lg-12 pe-lg-0 position-relative  bottom-0 header_card_text'>
                      <div className="row">
@@ -114,10 +114,10 @@ function Header() {
 
                      </div>
                      <div className='col-lg-5 pe-0 position-absolute position_md_relative ps-0 pt-5 pt-lg-0  end-0 bottom-0'>
-                        <div className='header_card border_0 m-0'>
+                        <div className='header_card overflow-hidden curser_pointer border_0 m-0'>
                           <p className='fc_white ff_PoppinsRegular fs_md ms-auto me-auto'>Lorem ipsum dolor sit amet, consectetur ipcing elit, sed do eiusmod tempor incididu ut labore et quis nostrud sed do eius .....
                           </p>
-                           <div className="max-w-258 border-top">
+                           <div className="max-w-258 mb-3 mb-sm-0 border-top">
 
                            </div>
                           <div className='d-flex justify-content-between align-item-end'>
