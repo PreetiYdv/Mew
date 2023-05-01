@@ -34,7 +34,7 @@ function Connect() {
               <button className="book_btn view_btn w-179 fc_white fs_md">Book a Schedule</button>
               <div className="d-flex align-items-center">
                 <img src={phone} alt="phone" />
-                <a href="#" className="ff_PoppinsMedium fs_xmd fc_voilet">
+                <a href="tel:123456789" className="ff_PoppinsMedium fs_xmd fc_voilet">
                   EmergencyCall
                 </a>
               </div>
