@@ -5,7 +5,7 @@ function Facilities() {
   return (
     <>
       <div className="container myContainer py-5">
-        <div className="d-flex justify-content-center flex-md-row flex-col align-items-md-center py-5">
+        <div className="d-flex justify-content-center flex_md_col  align-items-md-start py-5">
           <h2 className=" ff_Slackey fc_main fs_xxl mw_363 me-4">Facilities we provides</h2>
           <p className=" ff_PoppinsRegular fc_light fs_md mw_577">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
