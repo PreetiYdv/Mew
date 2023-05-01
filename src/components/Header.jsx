@@ -69,7 +69,7 @@ function Header() {
           </section>
           <section>
             <div className="container mycontainer pb-md-5 pt-md-5">
-                 <div className="row position-relative ps-3 pe-3">
+                 <div className="row position-relative column_reverse ps-3 pe-3">
                      <div className='col-lg-12 pe-lg-0 position-relative  bottom-0 header_card_text'>
                      <div className="row">
                       <div className="col-lg-7">
@@ -113,7 +113,7 @@ function Header() {
                      </div>
 
                      </div>
-                     <div className='col-lg-5 pe-0 position-absolute position_md_relative ps-0 pt-5 pt-lg-0  end-0 bottom-0'>
+                     <div className='col-lg-5 pe-0 position-absolute position_md_relative pb-5 pb-lg-0 ps-0  pt-lg-0  end-0 bottom-0'>
                         <div className='header_card overflow-hidden curser_pointer border_0 m-0'>
                           <p className='fc_white ff_PoppinsRegular fs_md ms-auto me-auto'>Lorem ipsum dolor sit amet, consectetur ipcing elit, sed do eiusmod tempor incididu ut labore et quis nostrud sed do eius .....
                           </p>

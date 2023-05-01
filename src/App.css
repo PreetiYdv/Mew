@@ -748,7 +748,9 @@ footer p a:hover {
     transition: all 300ms linear;
     z-index: 50;
   }
-
+  .column_reverse{
+    flex-direction: column-reverse !important;
+  }
   .w_142{
     width: 142px !important;
   }
