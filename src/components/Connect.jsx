@@ -8,7 +8,7 @@ function Connect() {
       <div className="container myContainer py-5">
         <div className="row justify-content-lg-between justify-content-center align-items-center">
           <div className="col-lg-6">
-            <h2 className="fc_main ff_Slackey fs_xxl mb-4 mt-lg-4 pt-lg-5">
+            <h2 className="fc_main ff_Slackey fs_xxl mb-4 mt-lg-4">
               Lets book a call and stay connected
             </h2>
             <div className="d-flex align-items-center gap-4 mb-4 pb-3">

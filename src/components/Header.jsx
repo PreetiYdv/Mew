@@ -22,7 +22,7 @@ function Header() {
             <div className="container myContainer pb-lg-5">
               <div className="row align-items-center pt-lg-5">
                 <div className="col-lg-6">
-                    <div className='position-absolute  position_md_relative w_sm_100 w-50 max-w-641 top-0 start-0'>
+                    <div className='position-absolute position_md_relative w_sm_100 w-50 max-w-641 top-0 start-0'>
                        <div>
                           <img src={CatDogImg} className='w-100 pt-4 pt-md-3 object_fit' alt="cat dog image" />
                        </div>
