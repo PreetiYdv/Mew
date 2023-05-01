@@ -98,10 +98,10 @@ function Groomers() {
               />
               <div className="d-flex flex-column  translate_text">
                 <h2 className=" ff_PoppinsSemiBold fc_main fs_lg text-center mb-3">
-                  Adam Smith
+                  Morgan Mark
                 </h2>
                 <p className=" ff_PoppinsRegular fs_md fc_light text-center pb-4">
-                  Veterinarian
+                  Trainer
                 </p>
               </div>
             </div>
@@ -115,10 +115,10 @@ function Groomers() {
               />
               <div className="d-flex flex-column  translate_text">
                 <h2 className=" ff_PoppinsSemiBold fc_main fs_lg text-center mb-3">
-                  Adam Smith
+                  Ana Fargun
                 </h2>
                 <p className=" ff_PoppinsRegular fs_md fc_light text-center pb-4">
-                  Veterinarian
+                  Trainer
                 </p>
               </div>
             </div>
@@ -132,10 +132,10 @@ function Groomers() {
               />
               <div className="d-flex flex-column  translate_text">
                 <h2 className=" ff_PoppinsSemiBold fc_main fs_lg text-center mb-3">
-                  Adam Smith
+                  Mouran Maz
                 </h2>
                 <p className=" ff_PoppinsRegular fs_md fc_light text-center pb-4">
-                  Veterinarian
+                  Care Taker
                 </p>
               </div>
             </div>

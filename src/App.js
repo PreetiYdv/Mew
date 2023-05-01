@@ -11,14 +11,14 @@ import Blog from "./components/Blog";
 import Service from "./components/Service";
 import Facilities from "./components/Facilities";
 import Footer from "./components/Footer";
-
+import { Button } from "bootstrap";
+import BackToTop from "./components/BackToTop";
 
 function App() {
   return (
     <>
       <div className=" bg_second">
         <MewNav />
-      
       </div>
       <div className=" bg_second">
         <Header />
@@ -30,9 +30,9 @@ function App() {
         <Service />
       </div>
       <div className=" bg_second">
-        <Facilities/>
+        <Facilities />
       </div>
-     
+
       <div className="bg_main">
         <Groomers />
       </div>
@@ -41,6 +41,7 @@ function App() {
       </div>
       <div className="bg_main ">
         <Footer />
+        <BackToTop/>
       </div>
     </>
   );

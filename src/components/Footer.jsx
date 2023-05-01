@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <footer className="container myContainer py-5">
+      <footer className="container myContainer pt-5">
         <div className="row justify-content-between mt-5">
           <div className="col-lg-5">
             <a
