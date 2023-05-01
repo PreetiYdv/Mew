@@ -8,7 +8,7 @@ function Footer() {
           <div className="col-lg-5">
             <a
               href="#"
-              className=" ff_Slackey fc_black fs_xxlg text-decoration-none"
+              className=" ff_Slackey fc_black fs_xxlg text-decoration-none mew_logo"
             >
               Mew
             </a>

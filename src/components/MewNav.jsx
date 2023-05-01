@@ -15,7 +15,7 @@ function MewNav() {
         <div className="container myContainer d-flex justify-content-between align-items-center pt-3 pb-3">
           <a
             href="#"
-            className="text-decoration-none ff_Slackey fc_black fs_xxlg"
+            className="text-decoration-none ff_Slackey fc_black fs_xxlg mew_logo"
           >
             Mew
           </a>

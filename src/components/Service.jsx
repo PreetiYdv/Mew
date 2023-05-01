@@ -9,7 +9,7 @@ import DogFoot from "../assets/images/png/dog_foot.png"
 const Service = () => {
   return (
     <>
-        <div className="container myContainer pt-md-5 pt-5">
+        <div className="container myContainer pt-5">
             <h2 className='d-flex ff_Slackey pb-lg-4 pb-2 pb-md-0 m-0 justify-content-center align-item-center'>
               <span className='dog_foot'>
                   <img src={DogFoot} alt="" />
@@ -85,7 +85,7 @@ const Service = () => {
           </div>
         </div>
 
-        <div className="container pb-md-5 pb-5 myContainer d-flex justify-content-center pt-md-3 pt-4 pt-lg-5">
+        <div className="container pb-5 myContainer d-flex justify-content-center pt-md-3 pt-4 pt-lg-5">
             <button className='book_btn view_btn w-179 ff_PoppinsSemiBold fc_white fs_md  '>Learn More</button>
         </div>
 
